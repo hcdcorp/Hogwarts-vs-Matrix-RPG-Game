@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>jQuery RPG Giz-ame</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Simplex Bootstrap Theme -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-C0X5qw1DlkeV0RDunhmi4cUBUkPDTvUqzElcNWm1NI2T4k8tKMZ+wRPQOhZfSJ9N" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/stylebootstrap.css">
+
+	<!-- Google Fonts link -->
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Unkempt" rel="stylesheet">
+
+	 <!-- jQuery Reference -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+</head>
+
+<body>
+	
+    <div class="container">
+    	<div class="row">
+    		<div class="col-sm-3"></div>
+        	<div class="col-sm-6">
+       			<div>
+    				<h1 id="header-info">HOGWARTS VS THE MATRIX</h1>
+    			</div>				
+        	</div>
+        	<div class="col-sm-3"></div> 
+        </div>
+ 	</div>	
+
+ 	<div class="container">
+	<div class="row">
+
+			<div class="col-sm-3"></div>
+			
+			<div class="col-sm-6">
+				<div id="gallery">
+					<img class='images' src="assets/images/harryT.png" alt="Harry Potter with his wand" data-index='0' data-name='Harry'> 
+					
+					<img class='images' src="assets/images/hermioneT.png" alt="Hermione with her wand" data-index='2' data-name='Hermione'>
+
+					<img class='images' src="assets/images/trinity2.png" alt="Trinity" data-index='3' data-name='Trinity' style="">
+
+					<img class='images' src="assets/images/neo.png" alt="Neo" data-index='1' data-name='Neo'>
+				</div> <!-- end of gallery div -->
+			</div> <!-- end col-sm-6-->
+        	<div class="col-sm-1">
+        		<button id="restartBtn" class="show">Restart</button> 
+        	</div>
+        	<div class="col-sm-2"></div>
+    </div>  <!-- end of row -->    	
+    </div> <!-- end of container-->  
+
+    <div class="container">
+    	<div class="row">
+	    	<div class="col-sm-3"></div>
+	    	
+	    	<div class="col-sm-2 attacker"></div>
+
+	    	<div class="col-sm-1">
+        		<button id="attackBtn">Attack</button>
+        	</div>
+
+	    	<div class="col-sm-2 defender"></div> 
+	    	<div class="col-sm-3">
+				<div id="gameInfo">
+					<p>Select a fighter to train for battle.</p><p> You must defeat the other 3 opponents to win the Hogwarts/Matrix Fight Club Grand Prize</p>
+				</div>	
+			</div>
+    	</div>
+    </div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html> 
